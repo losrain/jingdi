@@ -56,18 +56,20 @@ body {
   line-height: 36px;
 }
 
-.login .login_section .tab span {
+.login .login_section .tab a {
   width: 50%;
   font-size: 14px;
   color: #999;
   border-bottom: 1px solid #eee;
   float: left;
   text-align: center;
+  padding-bottom: 1px;
 }
 
-.login .login_section .tab span.on {
+.login .login_section .tab a.on {
+  padding-bottom: 0;
   color: #666;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 2px solid #ddd;
 }
 
 .login .login_section .form {
@@ -75,9 +77,19 @@ body {
   padding-top: 40px;
 }
 
+.login .login_section .form > a {
+  display: block;
+  height: 20px;
+  line-height: 20px;
+  font-size: 12px;
+  text-align: right;
+  color: #666;
+  padding-right: 8px;
+}
+
 .login .login_section .form label {
   width: 100%;
-  height: 60px;
+  height: 66px;
   display: block;
 }
 
@@ -94,7 +106,23 @@ body {
 .login .login_section .form label p {
   font-size: 12px;
   color: #f00;
-  padding: 0 10px;
   line-height: 12px;
+}
+
+.login .login_section .form .submit {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.login .login_section .form .submit a {
+  width: 100%;
+  border-radius: 5px;
+  background: #41464b;
+  color: #fff;
+  height: 44px;
+  font-size: 16px;
+  display: block;
+  text-align: center;
+  line-height: 44px;
 }
 /*# sourceMappingURL=login.css.map */
